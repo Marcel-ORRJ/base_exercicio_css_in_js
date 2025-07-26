@@ -14,6 +14,12 @@ export const FormPesquisa = styled.form<FormHTMLAttributes<HTMLFormElement>>`
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+    justify-content: center;
+  }
 `
 
 export const ButtonPesquisa = styled.button<

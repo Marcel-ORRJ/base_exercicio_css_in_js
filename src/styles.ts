@@ -10,7 +10,7 @@ const EstiloGLobal = createGlobalStyle`
 }
 
 body {
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 `
 export const Container = styled.div`
